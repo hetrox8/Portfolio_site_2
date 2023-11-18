@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/8aa00d59cf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="./images/logo.png" alt="" class="logo">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>full-stack developer</p>
+        <h1>Hi, I am <span> suleiman </span><br> full-stack developer</h1>
+      </div>
+    </div>
+  </div>
+    <!-- About section-->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/user.png" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">about me</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="showTab('skills')">Skills</p>
+              <p class="tab-links" onclick="showTab('experience')">Experience</p>
+              <p class="tab-links" onclick="showTab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents" id="skills-tab">
+              <ul>
+                <li><span>full-stack</span><br> developer rich dynamic web apps</li>
+                <li><span>system administrator</span><br> configure company's admin page </li>
+                <li><span>full-stack</span><br> developer</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience-tab" style="display: none;">
+              <ul>
+                <li><span>2022 - current</span><br> full-stack developer at Microsoft</li>
+                <li><span>2018 - 2021</span><br> system administrator at Oplex </li>
+                <li><span>2017 - 2018</span><br> front-end developer at Cisco</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education-tab" style="display: none;">
+              <ul>
+                <li><span>2016</span><br> developer rich dynamic web apps</li>
+                <li><span>2016</span><br> computer science BSc from Harvard University </li>
+                <li><span>2014</span><br> MBA from Stamford University</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services section-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>web development</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              <a href="#">learn more</a>
+            </p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h1>Ui/ux</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              <a href="#">learn more</a>
+            </p>
+          </div>
+
+          <div>
+            <i class="fas fa-cogs"></i>
+            <h1>system administrator</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              <a href="#">learn more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="./scripts.js"></script>
+</body>
+</html>
